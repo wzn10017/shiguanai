@@ -1,0 +1,7 @@
+shiguanai:
+  clini_table: /mnt/WZN/HistoBistro-main/test_data/clini_table.xlsx
+  slide_csv: /mnt/WZN/HistoBistro-main/test_data/slide.csv
+  feature_dir:
+    raw:  # in ['raw', 'histaugan', 'macenko']
+      retccl: /mnt/WZN/HistoBistro-main/test_data/output_fea  # in ['ctranspath', 'retccl']
+  folds: /mnt/WZN/HistoBistro-main/test_data/output_fea  # if it doesn't exist yet, it will be created automatically
